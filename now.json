@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "haproxy-linter",
+    "builds": [
+        { "src": "api/*.py", "use": "@now/python" },
+        { "src": "*.html", "use": "@now/static" }
+    ]
+}
